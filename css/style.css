@@ -40,7 +40,7 @@ a {
   gap: 50px;
 }
 
-.nav__logo {
+.logo {
   display: flex;
   gap: 8px;
 }
@@ -55,7 +55,7 @@ a {
 }
 
 .hero {
-  background: rgb(245, 247, 250);
+  background-color: rgb(245, 247, 250);
   margin-bottom: 40px;
 }
 
@@ -97,7 +97,7 @@ a {
 
 .lessons__button {
   border-radius: 4px;
-  background: rgb(76, 175, 79);
+  background-color: rgb(76, 175, 79);
   padding: 14px 32px;
   color: rgb(255, 255, 255);
   font-family: Inter;
@@ -111,7 +111,7 @@ a {
   color: rgb(76, 175, 79);
 }
 
-.nav__title {
+.logo__title {
   font-family: Inter;
   color: rgb(38, 50, 56);
 }
@@ -128,7 +128,7 @@ a {
   padding: 10px 20px;
   border-radius: 6px;
   border: 0;
-  background: rgb(76, 175, 79);
+  background-color: rgb(76, 175, 79);
   color: rgb(255, 255, 255);
   font-family: Inter;
   font-size: 14px;
@@ -210,4 +210,112 @@ a {
 
 .pixelgrade {
   display: flex;
+  align-items: center;
+  margin-bottom: 130px;
+}
+
+.pixelgrade__title {
+  color: rgb(77, 77, 77);
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  margin-bottom: 16px;
+}
+
+.pixelgrade__paragraph {
+  color: rgb(113, 113, 113);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 32px;
+}
+
+.pixelgrade__button {
+  border-radius: 4px;
+  background-color: rgb(76, 175, 79);
+  border: 0;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 14px 32px;
+}
+
+.button {
+  transition: transform 0.5s linear, background-color 0.5s linear;
+}
+
+.button:hover {
+  transform: scale(110%);
+  background-color: rgb(56, 142, 59);
+  cursor: pointer;
+}
+
+.business-helping {
+  background-color: rgb(245, 247, 250);
+  margin-bottom: 53px;
+}
+
+.business-helping__container {
+  display: flex;
+  padding: 64px 0;
+  align-items: center;
+  gap: 204px;
+}
+
+.business-helping__results {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 52px;
+  justify-content: space-between;
+}
+
+.business-result {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 191px;
+}
+
+.business-helping__title {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  margin-bottom: 8px;
+}
+.business-helping__span {
+  color: rgb(76, 175, 79);
+}
+
+.business-result__value {
+  color: rgb(77, 77, 77);
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.business-result__users {
+  color: rgb(113, 113, 113);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.business-helping__paragraph {
+  color: rgb(24, 25, 31);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.business-result__img {
+  width: 48px;
 }
