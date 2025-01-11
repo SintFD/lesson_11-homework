@@ -56,6 +56,7 @@ a {
 
 .hero {
   background: rgb(245, 247, 250);
+  margin-bottom: 40px;
 }
 
 .lessons__wrapper {
@@ -133,4 +134,78 @@ a {
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
+}
+
+.clients__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients {
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.clients__title {
+  margin-bottom: 8px;
+  color: rgb(77, 77, 77);
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.clients__paragraph {
+  margin-bottom: 41px;
+  color: rgb(113, 113, 113);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.manage {
+  margin-bottom: 94px;
+}
+
+.manage__list {
+  display: flex;
+  gap: 127px;
+}
+
+.organisation {
+  position: relative;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 1px 2px 4px 0px rgba(171, 190, 209, 0.2);
+  transition: box-shadow 0.3s linear, transform 0.3s linear;
+}
+
+.organisation__title {
+  color: rgb(77, 77, 77);
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.organisation__paragraph {
+  color: rgb(113, 113, 113);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.organisation:hover {
+  /* top: -20px; */
+  box-shadow: 10px 10px 4px 0px rgba(171, 190, 209, 0.2);
+  transform: scale(105%) translateY(-20px);
+  cursor: pointer;
 }
