@@ -319,3 +319,55 @@ a {
 .business-result__img {
   width: 48px;
 }
+
+.tesla {
+  background: rgb(245, 247, 250);
+}
+
+.tesla__container {
+  display: flex;
+  align-items: center;
+  padding: 32px 0;
+  gap: 78px;
+}
+
+.tesla__customers {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.tesla__paragraph {
+  color: rgb(113, 113, 113);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.tesla__title {
+  color: rgb(76, 175, 79);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 8px;
+}
+
+.tesla__subtitle {
+  color: rgb(137, 147, 158);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+
+.tesla__button {
+  color: rgb(76, 175, 79);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
